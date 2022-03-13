@@ -36,4 +36,48 @@
     }
   }
   
-  
+  .bg-custom1{
+    background-image: url("/assets/images/bg-breadcrumb.jpeg");
+
+}
+.bg-custom2{
+    background-image: url("/assets/images/bg-breadcrumb2.jpeg");
+}
+.bg-custom-light-blue{
+    background-image: url("/assets/images/bg-custom-light-blue.jpeg");
+}
+.bg-custom-light-pink{
+    background-image: url("/assets/images/bg-custom-light-pink.jpeg");
+}
+.bg-custom-black{
+    background-image: url("/assets/images/bg-custom-black.jpeg");
+}
+.bg-custom-green{
+    background-image: url("/assets/images/bg-custom-green.jpeg");
+}
+
+.gistesy-font {
+    font-family: 'Gistesy',sans-serif !important;
+}
+
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+.ariel-font {
+    font-family: 'Ariel', sans-serif;
+}
+.garet-book-font {
+    font-family: 'Garet-Book', sans-serif;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #7AA683 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #7AA683;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #f4f5f7;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
